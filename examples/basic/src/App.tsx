@@ -70,7 +70,8 @@ function Home() {
   return (
     <div>
       <h2>Home</h2>
-      <Fetcher />
+      <Fetcher url="https://example.com/" name="200" />
+      <Fetcher url="https://www.example.com/nonexistent-page" name="404" />
     </div>
   );
 }
